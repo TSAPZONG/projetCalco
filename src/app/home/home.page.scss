@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.button{
+  --background: rgb(146, 138, 138);
+
+}
+.ecran{
+
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+
+}
+.ecran > p{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+ font-size: 40px;
+ font-weight: 800;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80%;
+}
+
+.button-row{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 18%;
+}
+
+.button-row ion-button{
+  width:  23%;
+  height: 90%;
+}
+
+.button-row .egale{
+  width: 98%;
+}
